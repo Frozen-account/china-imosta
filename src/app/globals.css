@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* China Desk palette: dark slate canvas, crimson CTAs, amber trust accents. */
+@theme {
+  /* Montserrat covers Latin; Chinese glyphs fall back to the system CJK font (PingFang on iOS, YaHei on Windows). */
+  --font-sans: var(--font-montserrat), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", ui-sans-serif, system-ui, sans-serif;
+
+  --color-night: #0b1120;
+  --color-crimson: #dc2626;
+  --color-crimson-dark: #b91c1c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-night);
+  color: var(--color-slate-100);
+  -webkit-text-size-adjust: 100%; /* WeChat's in-app browser otherwise scales text */
+}
