@@ -1,0 +1,115 @@
+import type { Dict } from "./index";
+
+export const pl: Dict = {
+  htmlLang: "pl",
+  numberLocale: "pl-PL",
+  nav: { services: "Usługi", taxImport: "Podatki i import", pricing: "Cennik", about: "O nas", contact: "Kontakt", label: "Nawigacja główna" },
+  menu: { open: "Otwórz menu", close: "Zamknij menu", language: "Język" },
+  logoTagline: "Biuro rachunkowe w Warszawie",
+  wechat: {
+    cta: "Konsultacja WeChat",
+    title: "Konsultacja na WeChat",
+    subtitle: "Zeskanuj kod QR, aby dodać naszego doradcę",
+    scanHint: "Otwierasz stronę w WeChat? Przytrzymaj kod QR, aby go rozpoznać",
+    idLabel: "WeChat ID",
+    idPending: "wkrótce",
+    qrPending: "Kod QR WeChat · wkrótce",
+    copy: "Kopiuj",
+    copied: "Skopiowano",
+    orCall: "lub zadzwoń",
+    close: "Zamknij",
+  },
+  hero: {
+    pill: "Zarejestrowane biuro rachunkowe w Warszawie · KRS · Ubezpieczenie OC",
+    title1: "Księgowość i obsługa prawna",
+    title2: "dla chińskich firm i handlu transgranicznego w Polsce",
+    subtitle:
+      "Biuro stacjonarne w Warszawie (ul. Ostrobramska 101) · Zespół mówiący po chińsku, polsku i angielsku · Procedura art. 33a VAT (import bez zamrażania środków), KSeF 2.0, pełna księgowość i wsparcie podatkowe przy Karcie Pobytu.",
+    ctaPrimary: "Skontaktuj się przez WeChat",
+    ctaSecondary: "Zobacz ofertę i cennik",
+    badges: [
+      { title: "Biuro stacjonarne w Warszawie", detail: "ul. Ostrobramska 101" },
+      { title: "Zarejestrowane biuro rachunkowe", detail: "Wpis do KRS · ubezpieczenie OC" },
+      { title: "Specjalizacja: import i eksport", detail: "Kolej Chiny–Europa · fracht morski · lotniczy" },
+    ],
+  },
+  solutions: {
+    eyebrow: "Usługi",
+    title: "Cztery najczęstsze wyzwania podatkowe chińskich firm w Polsce",
+    subtitle: "Na podstawie potrzeb klientów z Warszawy i centrów hurtowych w Wólce Kosowskiej (GD Poland)",
+    items: [
+      {
+        tag: "VAT Importers",
+        title: "Bezgotówkowe rozliczenie VAT w imporcie (art. 33a)",
+        body: "Brak konieczności zamrażania gotówki w urzędzie celnym — uprawnieni importerzy rozliczają VAT w deklaracji JPK_V7. Pomagamy sprawdzić warunki i wdrożyć procedurę.",
+      },
+      {
+        tag: "KSeF 2.0",
+        title: "Gotowość na KSeF 2.0",
+        body: "Weryfikacja nazewnictwa towarów na fakturach i kodów GTU, integracja z systemem magazynowym, ograniczenie ryzyka kontroli i kar skarbowych.",
+      },
+      {
+        tag: "Kasa Fiskalna",
+        title: "Kasy fiskalne i limit gotówkowy B2B",
+        body: "Obsługa salonów i hal hurtowych, limit 15 000 PLN dla płatności gotówkowych między firmami (B2B), procedury AML przy dużych transakcjach gotówkowych.",
+      },
+      {
+        tag: "Karta Pobytu",
+        title: "Wsparcie księgowe przy Karcie Pobytu",
+        body: "Prawidłowe prowadzenie ksiąg, terminowe sprawozdania finansowe i uzyskiwanie zaświadczeń o niezaleganiu w podatkach i ZUS.",
+      },
+    ],
+  },
+  importVat: {
+    eyebrow: "Podatki i import",
+    title: "Art. 33a: VAT z importu bez zamrażania gotówki",
+    subtitle: "Zgodnie z art. 33a ustawy o VAT uprawniony importer rozlicza VAT z importu w deklaracji, zamiast płacić go z góry w urzędzie celnym.",
+    standardTitle: "Import standardowy",
+    standard: [
+      "Towar dociera do Polski, urząd celny nalicza VAT",
+      "Importer płaci VAT gotówką na rachunek urzędu celnego",
+      "Środki zamrożone zwykle na 30–60 dni — wąskie gardło płynności",
+    ],
+    art33aTitle: "Procedura art. 33a",
+    art33a: [
+      "Towar dociera do Polski, urząd celny wystawia dokument PZC",
+      "VAT nie jest płacony gotówką w urzędzie celnym",
+      "Bezgotówkowe rozliczenie w miesięcznym JPK_V7 — kapitał obrotowy zostaje w firmie",
+    ],
+    note: "Warunki zależą od firmy (m.in. status czynnego podatnika VAT, brak zaległości podatkowych, odprawa przez agenta celnego ze statusem AEO). Sprawdzamy je indywidualnie podczas konsultacji.",
+  },
+  pricing: {
+    eyebrow: "Cennik",
+    title: "Przejrzyste ceny — stały abonament miesięczny",
+    subtitle: "Ceny startowe w PLN netto (bez VAT). Ostateczna oferta zależy od liczby dokumentów i rodzaju działalności.",
+    pricePrefix: "od",
+    priceSuffix: "PLN / mies.",
+    netto: "netto, bez VAT",
+    recommended: "Polecany",
+    cta: "Zapytaj o wycenę na WeChat",
+    plans: [
+      { name: "Starter Trading", sub: "初创贸易型", features: ["Do 20 dokumentów miesięcznie", "Rozliczenia JPK_V7", "Rozliczenia ZUS", "Dostęp do platformy Taxo"] },
+      { name: "Import & Wholesale Pro", sub: "进出口批发旗舰版", features: ["Obsługa PZC/SAD w procedurze art. 33a", "Wdrożenie KSeF", "Do 40 dokumentów miesięcznie", "Dedykowany opiekun chińskojęzyczny"] },
+      { name: "Enterprise / Custom", sub: "企业全面定制版", features: ["Firmy o dużych obrotach", "Obsługa kadr i płac", "Optymalizacja CIT", "Reprezentacja podczas kontroli skarbowych"] },
+    ],
+  },
+  about: {
+    eyebrow: "O nas",
+    title: "IMOSTA Group: kompleksowa obsługa chińskich firm w Warszawie",
+    subtitle: "IMOSTA Group świadczy usługi księgowe, kadrowe i doradztwo prawne dla małych i średnich firm w Polsce. China Desk prowadzi zespół chińskojęzyczny, a platforma Taxo zapewnia prostą i przejrzystą współpracę.",
+    steps: [
+      { title: "Zdjęcie faktury w aplikacji", body: "Wgrywasz faktury i dokumenty jako zdjęcia w aplikacji Taxo — bez wysyłania papierów." },
+      { title: "Weryfikacja na bieżąco", body: "Księgowy sprawdza dokumenty i zgłoszenia PZC, a pytania wyjaśnia z Tobą po chińsku." },
+      { title: "Terminowe JPK i KSeF", body: "Składamy JPK_V7, deklaracje ZUS i inne w ustawowych terminach, a e-faktury obsługujemy w KSeF." },
+      { title: "Miesięczny raport na WeChat", body: "Co miesiąc wysyłamy na WeChat podsumowanie należnych podatków i wyników firmy." },
+    ],
+  },
+  contact: {
+    wechatTitle: "Zeskanuj kod i napisz na WeChat",
+    advisor: "Doradca chińskojęzyczny",
+    title: "Kontakt",
+    subtitle: "Zapraszamy na spotkanie w biurze w Warszawie",
+    addressLocal: "",
+  },
+  footer: { privacy: "Polityka prywatności (RODO)" },
+};

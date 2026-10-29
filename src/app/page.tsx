@@ -2,6 +2,7 @@ import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
 import { Hero } from "@/components/hero";
 import { ImportVat } from "@/components/import-vat";
+import { LocaleProvider } from "@/components/locale";
 import { Navbar } from "@/components/navbar";
 import { Pricing } from "@/components/pricing";
 import { Solutions } from "@/components/solutions";
@@ -32,18 +33,20 @@ const jsonLd = {
 
 export default function Home() {
   return (
-    <WeChatProvider>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
-      <Navbar />
-      <main>
-        <Hero />
-        <Solutions />
-        <ImportVat />
-        <Pricing />
-        <Workflow />
-        <Contact />
-      </main>
-      <Footer />
-    </WeChatProvider>
+    <LocaleProvider>
+      <WeChatProvider>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
+        <Navbar />
+        <main>
+          <Hero />
+          <Solutions />
+          <ImportVat />
+          <Pricing />
+          <Workflow />
+          <Contact />
+        </main>
+        <Footer />
+      </WeChatProvider>
+    </LocaleProvider>
   );
 }

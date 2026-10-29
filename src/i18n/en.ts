@@ -1,0 +1,115 @@
+import type { Dict } from "./index";
+
+export const en: Dict = {
+  htmlLang: "en",
+  numberLocale: "en-US",
+  nav: { services: "Services", taxImport: "Taxes & Import", pricing: "Pricing", about: "About Us", contact: "Contact", label: "Main navigation" },
+  menu: { open: "Open menu", close: "Close menu", language: "Language" },
+  logoTagline: "Accounting firm in Warsaw",
+  wechat: {
+    cta: "WeChat Consultation",
+    title: "WeChat Consultation",
+    subtitle: "Scan the QR code to add our advisor",
+    scanHint: "Viewing in WeChat? Long-press the QR code to scan it",
+    idLabel: "WeChat ID",
+    idPending: "coming soon",
+    qrPending: "WeChat QR code · coming soon",
+    copy: "Copy",
+    copied: "Copied",
+    orCall: "or call",
+    close: "Close",
+  },
+  hero: {
+    pill: "Registered Accounting Firm in Warsaw · KRS · Professional Liability Insurance (OC)",
+    title1: "Accounting and Legal Support",
+    title2: "for Chinese Enterprises & Cross-Border Trade in Poland",
+    subtitle:
+      "Office in Warsaw (ul. Ostrobramska 101) · Native Chinese, Polish & English speaking team · Art. 33a VAT import postponement, KSeF 2.0 readiness, corporate accounting & tax compliance for Residence Cards.",
+    ctaPrimary: "Contact via WeChat",
+    ctaSecondary: "View Pricing & Plans",
+    badges: [
+      { title: "Office in Warsaw", detail: "ul. Ostrobramska 101" },
+      { title: "Registered accounting firm", detail: "KRS-registered · OC liability insurance" },
+      { title: "Import & export specialists", detail: "China–Europe rail · sea · air freight" },
+    ],
+  },
+  solutions: {
+    eyebrow: "Services",
+    title: "The Four Most Common Tax Challenges for Chinese Businesses in Poland",
+    subtitle: "Based on the needs of our clients in Warsaw and the Wólka Kosowska (GD Poland) wholesale centres",
+    items: [
+      {
+        tag: "VAT Importers",
+        title: "Cashless Import VAT Clearance (Art. 33a)",
+        body: "No upfront cash frozen at customs — eligible importers settle import VAT directly in the JPK_V7 return. We check whether you qualify and handle the setup.",
+      },
+      {
+        tag: "KSeF 2.0",
+        title: "KSeF 2.0 Readiness",
+        body: "Invoice nomenclature audit, GTU code alignment and ERP integration — reducing the risk of tax audits and penalties.",
+      },
+      {
+        tag: "Kasa Fiskalna",
+        title: "Cash Registers & B2B Cash Limit",
+        body: "Showroom and wholesale hall compliance, the 15,000 PLN cash limit for B2B transactions, and strict AML procedures for large cash payments.",
+      },
+      {
+        tag: "Karta Pobytu",
+        title: "Tax Compliance for Residence Permits (Karta Pobytu)",
+        body: "Clean bookkeeping, timely annual filings, and official clearance certificates (zaświadczenie o niezaleganiu) from the Tax Office and ZUS.",
+      },
+    ],
+  },
+  importVat: {
+    eyebrow: "Taxes & Import",
+    title: "Art. 33a: Import VAT Without Freezing Cash",
+    subtitle: "Under Art. 33a of the Polish VAT Act, eligible importers settle import VAT in their VAT return instead of paying it upfront at customs.",
+    standardTitle: "Standard import",
+    standard: [
+      "Goods arrive; customs assesses import VAT",
+      "The importer pays VAT in cash to the customs account",
+      "Cash is typically frozen for 30–60 days — a cash-flow bottleneck",
+    ],
+    art33aTitle: "Art. 33a procedure",
+    art33a: [
+      "Goods arrive; customs issues the PZC document",
+      "No VAT is paid in cash at customs",
+      "Non-cash VAT accounting in the monthly JPK_V7 — working capital stays in the business",
+    ],
+    note: "Eligibility depends on the company (e.g. active VAT registration, no tax arrears, clearance through an AEO-certified customs agent). We check each condition during the consultation.",
+  },
+  pricing: {
+    eyebrow: "Pricing",
+    title: "Transparent Pricing — Fixed Monthly Fee",
+    subtitle: "Starting prices in PLN, net of VAT. The final quote depends on document volume and type of business.",
+    pricePrefix: "from",
+    priceSuffix: "PLN / mo",
+    netto: "net, excl. VAT",
+    recommended: "Recommended",
+    cta: "Get a quote on WeChat",
+    plans: [
+      { name: "Starter Trading", sub: "初创贸易型", features: ["Up to 20 documents per month", "JPK_V7 filings", "ZUS filings", "24/7 Taxo app access"] },
+      { name: "Import & Wholesale Pro", sub: "进出口批发旗舰版", features: ["Customs PZC clearance (Art. 33a)", "KSeF setup", "Up to 40 documents per month", "Dedicated Chinese-speaking account manager"] },
+      { name: "Enterprise / Custom", sub: "企业全面定制版", features: ["High-turnover companies", "Payroll & HR", "Corporate CIT structuring", "Tax audit representation"] },
+    ],
+  },
+  about: {
+    eyebrow: "About Us",
+    title: "IMOSTA Group: One-Stop Accounting for Chinese Businesses in Warsaw",
+    subtitle: "IMOSTA Group provides accounting, HR and legal advisory services to small and medium-sized companies in Poland. The China Desk is run by a Chinese-speaking team, and the Taxo platform keeps cooperation simple and transparent.",
+    steps: [
+      { title: "Snap & Upload Invoices", body: "Upload invoices and documents as photos in the Taxo mobile app — no paper by post." },
+      { title: "Real-Time Review", body: "Your accountant reviews documents and PZC customs records and clarifies questions with you in Chinese." },
+      { title: "On-Time JPK & KSeF Filing", body: "We file JPK_V7, ZUS and other returns by the statutory deadlines and handle e-invoices in KSeF." },
+      { title: "Monthly Report on WeChat", body: "Every month you receive a WeChat summary of taxes due and key business figures." },
+    ],
+  },
+  contact: {
+    wechatTitle: "Scan to Chat on WeChat",
+    advisor: "Chinese-speaking advisor",
+    title: "Contact",
+    subtitle: "Visit us at our Warsaw office by appointment",
+    addressLocal: "",
+  },
+  footer: { privacy: "Privacy Policy (GDPR / RODO)" },
+};
