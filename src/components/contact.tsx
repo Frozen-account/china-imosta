@@ -1,8 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import { useLocale } from "@/components/locale";
 import { WeChatButton, WeChatId, WeChatQr } from "@/components/wechat";
+import { PHOTOS } from "@/lib/photos";
 import { CONTACT } from "@/lib/site";
 
 const REGISTRY = [
@@ -27,34 +29,48 @@ export function Contact() {
           </WeChatButton>
         </div>
 
-        <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-8">
-          <h2 className="text-2xl font-extrabold text-white">{t.contact.title}</h2>
-          <p className="mt-1 text-sm text-slate-400">{t.contact.subtitle}</p>
-          <ul className="mt-6 space-y-5">
-            <li className="flex gap-4">
-              <MapPin className="mt-0.5 size-5 shrink-0 text-crimson" aria-hidden />
-              <span>
-                <a href={CONTACT.mapsHref} target="_blank" rel="noopener noreferrer" className="font-semibold text-white hover:text-amber-300">{CONTACT.address}</a>
-                {t.contact.addressLocal && <span className="block text-sm text-slate-400">{t.contact.addressLocal}</span>}
-              </span>
-            </li>
-            <li className="flex gap-4">
-              <Phone className="mt-0.5 size-5 shrink-0 text-crimson" aria-hidden />
-              <a href={CONTACT.phoneHref} className="font-semibold text-white hover:text-amber-300">{CONTACT.phone}</a>
-            </li>
-            <li className="flex gap-4">
-              <Mail className="mt-0.5 size-5 shrink-0 text-crimson" aria-hidden />
-              <a href={`mailto:${CONTACT.email}`} className="font-semibold text-white hover:text-amber-300">{CONTACT.email}</a>
-            </li>
-          </ul>
-          <dl className="mt-8 grid grid-cols-3 gap-3 border-t border-slate-800 pt-6 text-sm">
-            {REGISTRY.map(([k, v]) => (
-              <div key={k}>
-                <dt className="text-xs font-bold uppercase tracking-wider text-slate-500">{k}</dt>
-                <dd className="mt-0.5 break-all font-mono text-slate-200">{v}</dd>
-              </div>
-            ))}
-          </dl>
+        <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/60">
+          <figure className="relative">
+            <Image
+              src={PHOTOS.accountantPortrait}
+              alt={t.photos.advisorAlt}
+              placeholder="blur"
+              sizes="(min-width: 1152px) 800px, (min-width: 1024px) 66vw, 100vw"
+              className="aspect-[16/9] w-full object-cover object-[60%_35%] sm:aspect-[21/9]"
+            />
+            <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-900 to-transparent px-8 pb-3 pt-12 text-sm font-semibold text-white">
+              {t.photos.advisorCaption}
+            </figcaption>
+          </figure>
+          <div className="p-8 pt-6">
+            <h2 className="text-2xl font-extrabold text-white">{t.contact.title}</h2>
+            <p className="mt-1 text-sm text-slate-400">{t.contact.subtitle}</p>
+            <ul className="mt-6 space-y-5">
+              <li className="flex gap-4">
+                <MapPin className="mt-0.5 size-5 shrink-0 text-crimson" aria-hidden />
+                <span>
+                  <a href={CONTACT.mapsHref} target="_blank" rel="noopener noreferrer" className="font-semibold text-white hover:text-amber-300">{CONTACT.address}</a>
+                  {t.contact.addressLocal && <span className="block text-sm text-slate-400">{t.contact.addressLocal}</span>}
+                </span>
+              </li>
+              <li className="flex gap-4">
+                <Phone className="mt-0.5 size-5 shrink-0 text-crimson" aria-hidden />
+                <a href={CONTACT.phoneHref} className="font-semibold text-white hover:text-amber-300">{CONTACT.phone}</a>
+              </li>
+              <li className="flex gap-4">
+                <Mail className="mt-0.5 size-5 shrink-0 text-crimson" aria-hidden />
+                <a href={`mailto:${CONTACT.email}`} className="font-semibold text-white hover:text-amber-300">{CONTACT.email}</a>
+              </li>
+            </ul>
+            <dl className="mt-8 grid grid-cols-3 gap-3 border-t border-slate-800 pt-6 text-sm">
+              {REGISTRY.map(([k, v]) => (
+                <div key={k}>
+                  <dt className="text-xs font-bold uppercase tracking-wider text-slate-500">{k}</dt>
+                  <dd className="mt-0.5 break-all font-mono text-slate-200">{v}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
         </div>
       </div>
     </section>

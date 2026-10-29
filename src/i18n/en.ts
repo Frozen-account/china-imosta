@@ -112,4 +112,16 @@ export const en: Dict = {
     addressLocal: "",
   },
   footer: { privacy: "Privacy Policy (GDPR / RODO)" },
+  photos: {
+    receptionAlt: "Reception of the IMOSTA office in Warsaw with the IMOSTA logo on the wall",
+    receptionCaption: "IMOSTA office in Warsaw · ul. Ostrobramska 101",
+    officeTitle: "Our Warsaw Office",
+    officeSubtitle: "A real office and a real team — visit us by appointment.",
+    teamAlt: "Chief accountant Tatiana and specialist Elena at work in the IMOSTA Warsaw office",
+    teamCaption: "Chief accountant Tatiana and specialist Elena",
+    documentsAlt: "Binders with the IMOSTA logo, team meeting in the background",
+    documentsCaption: "Every client's documents have a dedicated owner",
+    advisorAlt: "IMOSTA accountant at her desk in the Warsaw office",
+    advisorCaption: "Your accounting team, on site in Warsaw",
+  },
 };

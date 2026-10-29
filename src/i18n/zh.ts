@@ -102,4 +102,16 @@ export const zh = {
     addressLocal: "华沙 Ostrobramska 街 101 号 336 室",
   },
   footer: { privacy: "隐私政策 · Polityka Prywatności (RODO)" },
+  photos: {
+    receptionAlt: "IMOSTA 华沙办公室前台，墙上是 IMOSTA 标志",
+    receptionCaption: "IMOSTA 华沙办公室 · ul. Ostrobramska 101",
+    officeTitle: "我们的华沙办公室",
+    officeSubtitle: "真实的办公室、真实的团队——欢迎预约来访面谈。",
+    teamAlt: "首席会计 Tatiana 与会计专员 Elena 在 IMOSTA 华沙办公室工作",
+    teamCaption: "首席会计 Tatiana 与会计专员 Elena",
+    documentsAlt: "印有 IMOSTA 标志的文件夹，背景是团队工作会议",
+    documentsCaption: "每位客户的文件都由专人负责",
+    advisorAlt: "IMOSTA 会计在华沙办公室的工位上",
+    advisorCaption: "您的会计团队就在华沙",
+  },
 };

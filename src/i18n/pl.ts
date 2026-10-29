@@ -112,4 +112,16 @@ export const pl: Dict = {
     addressLocal: "",
   },
   footer: { privacy: "Polityka prywatności (RODO)" },
+  photos: {
+    receptionAlt: "Recepcja biura IMOSTA w Warszawie z logo IMOSTA na ścianie",
+    receptionCaption: "Biuro IMOSTA w Warszawie · ul. Ostrobramska 101",
+    officeTitle: "Nasze biuro w Warszawie",
+    officeSubtitle: "Prawdziwe biuro i prawdziwy zespół — zapraszamy na spotkanie po wcześniejszym umówieniu.",
+    teamAlt: "Główna księgowa Tatiana i specjalistka Elena przy pracy w biurze IMOSTA w Warszawie",
+    teamCaption: "Główna księgowa Tatiana i specjalistka Elena",
+    documentsAlt: "Segregatory z logo IMOSTA, w tle spotkanie zespołu",
+    documentsCaption: "Dokumenty każdego klienta prowadzi wyznaczona osoba",
+    advisorAlt: "Księgowa IMOSTA przy biurku w warszawskim biurze",
+    advisorCaption: "Twój zespół księgowy na miejscu w Warszawie",
+  },
 };
