@@ -43,7 +43,7 @@ export function WeChatQr({ size = "md" }: { size?: "md" | "lg" }) {
 export function WeChatId() {
   const { t } = useLocale();
   const [copied, setCopied] = useState(false);
-  if (!CONTACT.wechatId) return <p className="text-sm text-slate-400">{t.wechat.idLabel}: {t.wechat.idPending}</p>;
+  if (!CONTACT.wechatId) return null;
 
   async function copy() {
     try {
@@ -97,7 +97,7 @@ function WeChatModal({ onClose }: { onClose: () => void }) {
         <p className="mt-1 text-sm text-slate-400">{t.wechat.subtitle}</p>
         <div className="mt-5 flex justify-center"><WeChatQr /></div>
         <p className="mt-3 text-xs text-slate-500">{t.wechat.scanHint}</p>
-        <div className="mt-4 flex justify-center"><WeChatId /></div>
+        {CONTACT.wechatId && <div className="mt-4 flex justify-center"><WeChatId /></div>}
         <p className="mt-5 border-t border-slate-800 pt-4 text-sm text-slate-400">
           {t.wechat.orCall} <a href={CONTACT.phoneHref} className="font-semibold text-white hover:text-amber-300">{CONTACT.phone}</a>
         </p>

@@ -1,9 +1,8 @@
 // Single place for contact details and links used across the page.
-// TODO before launch: set wechatId (the QR image lives in public/images/wechat-qr.png).
 export const SITE_URL = "https://china.imosta.pl";
 
 export const CONTACT = {
-  wechatId: "", // Victoria's WeChat ID — empty shows a "待补充" placeholder
+  wechatId: "", // Victoria's WeChat ID — empty hides the ID row; the QR (public/images/wechat-qr.png) is shown either way
   wechatName: "Victoria",
   phone: "+48 573 581 162",
   phoneHref: "tel:+48573581162",
@@ -13,7 +12,6 @@ export const CONTACT = {
   nip: "1133089152",
   krs: "0001023447",
   regon: "524697797",
-  privacyHref: "https://imosta.pl/ru/privacy-policy/",
 } as const;
 
 // Labels come from the dictionaries (src/i18n) under nav.<key>.

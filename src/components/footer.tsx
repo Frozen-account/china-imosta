@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { ImostaLogo } from "@/components/logo";
 import { useLocale } from "@/components/locale";
 import { CONTACT } from "@/lib/site";
@@ -14,7 +15,11 @@ export function Footer() {
           <span className="text-slate-400">{t.logoTagline}</span>
         </div>
         <p>© 2026 IMOSTA Group · China Desk · NIP {CONTACT.nip} · KRS {CONTACT.krs} · REGON {CONTACT.regon}</p>
-        <a href={CONTACT.privacyHref} target="_blank" rel="noopener noreferrer" className="hover:text-slate-300">{t.footer.privacy}</a>
+        {t.footer.privacyHref.startsWith("/") ? (
+          <Link href={t.footer.privacyHref} className="hover:text-slate-300">{t.footer.privacy}</Link>
+        ) : (
+          <a href={t.footer.privacyHref} target="_blank" rel="noopener noreferrer" className="hover:text-slate-300">{t.footer.privacy}</a>
+        )}
       </div>
     </footer>
   );

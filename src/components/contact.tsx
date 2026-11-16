@@ -23,7 +23,7 @@ export function Contact() {
           <h2 className="mt-2 text-2xl font-extrabold text-white">{t.contact.wechatTitle}</h2>
           <p className="mt-1 text-sm text-slate-400">{t.contact.advisor} {CONTACT.wechatName}</p>
           <div className="mt-6"><WeChatQr size="lg" /></div>
-          <div className="mt-4"><WeChatId /></div>
+          {CONTACT.wechatId && <div className="mt-4"><WeChatId /></div>}
           <WeChatButton className="mt-6 inline-flex items-center gap-2 rounded-xl bg-crimson px-6 py-3 font-bold text-white transition-colors hover:bg-crimson-dark">
             <MessageCircle className="size-5" aria-hidden /> {t.hero.ctaPrimary}
           </WeChatButton>

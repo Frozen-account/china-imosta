@@ -12,7 +12,6 @@ export const en: Dict = {
     subtitle: "Scan the QR code to add our advisor",
     scanHint: "Viewing in WeChat? Long-press the QR code to scan it",
     idLabel: "WeChat ID",
-    idPending: "coming soon",
     qrAlt: "IMOSTA WeChat QR code",
     copy: "Copy",
     copied: "Copied",
@@ -36,7 +35,7 @@ export const en: Dict = {
   solutions: {
     eyebrow: "Services",
     title: "The Four Most Common Tax Challenges for Chinese Businesses in Poland",
-    subtitle: "Based on the needs of our clients in Warsaw and the Wólka Kosowska (GD Poland) wholesale centres",
+    subtitle: "Common needs of Chinese businesses in Warsaw and the Wólka Kosowska wholesale markets",
     items: [
       {
         tag: "VAT Importers",
@@ -46,7 +45,7 @@ export const en: Dict = {
       {
         tag: "KSeF 2.0",
         title: "KSeF 2.0 Readiness",
-        body: "Consistent product names on invoices, verification of the applicable GTU markers in JPK_V7, and invoicing workflow setup — reducing the risk of tax audits and penalties.",
+        body: "KSeF becomes mandatory in phases from 2026; the exact start date and any exemptions depend on your company. We help with consistent product names on invoices, verification of the applicable GTU markers in JPK_V7, and invoicing workflow setup — reducing the risk of tax audits and penalties.",
       },
       {
         tag: "Kasa Fiskalna",
@@ -62,7 +61,7 @@ export const en: Dict = {
   },
   importVat: {
     eyebrow: "Taxes & Import",
-    title: "Art. 33a: Import VAT Without Freezing Cash",
+    title: "Art. 33a: Less Working Capital Tied Up in Import VAT",
     subtitle: "Under Art. 33a of the Polish VAT Act, eligible importers settle import VAT in their VAT return instead of paying it upfront at customs.",
     standardTitle: "Standard import",
     standard: [
@@ -73,8 +72,8 @@ export const en: Dict = {
     art33aTitle: "Art. 33a procedure",
     art33a: [
       "Goods arrive; customs issues the PZC document",
-      "No VAT is paid in cash at customs",
-      "Non-cash VAT accounting in the monthly JPK_V7 — working capital stays in the business",
+      "Import VAT is not paid upfront at the customs stage",
+      "Import VAT is settled in the monthly JPK_V7 — helping preserve working capital",
     ],
     note: "Eligibility depends on the company (e.g. VAT registration status, tax and duty payment record, and the customs agent used). We check each condition during the consultation.",
   },
@@ -99,7 +98,7 @@ export const en: Dict = {
     subtitle: "IMOSTA Group provides accounting, HR and legal advisory services to small and medium-sized companies in Poland. The China Desk is run by a Chinese-speaking team, and the Taxo platform keeps cooperation simple and transparent.",
     steps: [
       { title: "Snap & Upload Invoices", body: "Upload invoices and documents as photos in the Taxo mobile app — no paper by post." },
-      { title: "Real-Time Review", body: "Your accountant reviews documents and PZC customs records and clarifies questions with you in Chinese." },
+      { title: "Real-Time Review", body: "Your accountant reviews documents and PZC customs records; if questions arise, a Chinese-speaking account manager helps you communicate with the accountant." },
       { title: "On-Time Tax Filings & KSeF E-Invoicing", body: "We file JPK_V7, ZUS and other returns by the statutory deadlines and handle e-invoices in KSeF." },
       { title: "Monthly Report on WeChat", body: "Every month you receive a WeChat summary of taxes due and key business figures." },
     ],
@@ -111,7 +110,7 @@ export const en: Dict = {
     subtitle: "Visit us at our Warsaw office by appointment",
     addressLocal: "",
   },
-  footer: { privacy: "Privacy Policy (GDPR / RODO)" },
+  footer: { privacy: "Privacy Policy (GDPR / RODO)", privacyHref: "https://imosta.pl/en/privacy-policy/" },
   photos: {
     receptionAlt: "Reception of the IMOSTA office in Warsaw with the IMOSTA logo on the wall",
     receptionCaption: "IMOSTA office in Warsaw · ul. Ostrobramska 101",

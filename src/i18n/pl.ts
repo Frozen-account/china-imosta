@@ -12,7 +12,6 @@ export const pl: Dict = {
     subtitle: "Zeskanuj kod QR, aby dodać naszego doradcę",
     scanHint: "Otwierasz stronę w WeChat? Przytrzymaj kod QR, aby go rozpoznać",
     idLabel: "WeChat ID",
-    idPending: "wkrótce",
     qrAlt: "Kod QR WeChat IMOSTA",
     copy: "Kopiuj",
     copied: "Skopiowano",
@@ -36,17 +35,17 @@ export const pl: Dict = {
   solutions: {
     eyebrow: "Usługi",
     title: "Cztery najczęstsze wyzwania podatkowe chińskich firm w Polsce",
-    subtitle: "Na podstawie potrzeb klientów z Warszawy i centrów hurtowych w Wólce Kosowskiej (GD Poland)",
+    subtitle: "Najczęstsze potrzeby chińskich przedsiębiorców z Warszawy i centrów hurtowych w Wólce Kosowskiej",
     items: [
       {
         tag: "VAT Importers",
-        title: "Bezgotówkowe rozliczenie VAT w imporcie (art. 33a)",
+        title: "Rozliczenie VAT z importu w deklaracji (art. 33a)",
         body: "Uprawnieni importerzy wykazują VAT z importu w JPK_V7 zamiast płacić go w urzędzie celnym, a przy spełnieniu warunków do odliczenia odliczają go w tej samej deklaracji. Pomagamy sprawdzić warunki i wdrożyć procedurę.",
       },
       {
         tag: "KSeF 2.0",
         title: "Gotowość na KSeF 2.0",
-        body: "Ujednolicenie nazw towarów na fakturach, weryfikacja właściwych oznaczeń GTU w JPK_V7 i uporządkowanie procesu fakturowania, ograniczenie ryzyka kontroli i kar skarbowych.",
+        body: "KSeF jest wprowadzany obowiązkowo etapami od 2026 r.; termin i ewentualne wyjątki zależą od sytuacji firmy. Pomagamy ujednolicić nazwy towarów na fakturach, weryfikacja właściwych oznaczeń GTU w JPK_V7 i uporządkowanie procesu fakturowania, ograniczenie ryzyka kontroli i kar skarbowych.",
       },
       {
         tag: "Kasa Fiskalna",
@@ -62,7 +61,7 @@ export const pl: Dict = {
   },
   importVat: {
     eyebrow: "Podatki i import",
-    title: "Art. 33a: VAT z importu bez zamrażania gotówki",
+    title: "Art. 33a: mniej środków obrotowych zamrożonych w VAT z importu",
     subtitle: "Zgodnie z art. 33a ustawy o VAT uprawniony importer rozlicza VAT z importu w deklaracji, zamiast płacić go z góry w urzędzie celnym.",
     standardTitle: "Import standardowy",
     standard: [
@@ -73,8 +72,8 @@ export const pl: Dict = {
     art33aTitle: "Procedura art. 33a",
     art33a: [
       "Towar dociera do Polski, urząd celny wystawia dokument PZC",
-      "VAT nie jest płacony gotówką w urzędzie celnym",
-      "Bezgotówkowe rozliczenie w miesięcznym JPK_V7 — kapitał obrotowy zostaje w firmie",
+      "VAT z importu nie jest płacony z góry na etapie odprawy celnej",
+      "Rozliczenie w miesięcznym JPK_V7 — pomaga zachować kapitał obrotowy",
     ],
     note: "Warunki zależą od firmy (m.in. rejestracja VAT, regulowanie podatków i należności celnych oraz agencja celna). Sprawdzamy je indywidualnie podczas konsultacji.",
   },
@@ -99,7 +98,7 @@ export const pl: Dict = {
     subtitle: "IMOSTA Group świadczy usługi księgowe, kadrowe i doradztwo prawne dla małych i średnich firm w Polsce. China Desk prowadzi zespół chińskojęzyczny, a platforma Taxo zapewnia prostą i przejrzystą współpracę.",
     steps: [
       { title: "Zdjęcie faktury w aplikacji", body: "Wgrywasz faktury i dokumenty jako zdjęcia w aplikacji Taxo — bez wysyłania papierów." },
-      { title: "Weryfikacja na bieżąco", body: "Księgowy sprawdza dokumenty i zgłoszenia PZC, a pytania wyjaśnia z Tobą po chińsku." },
+      { title: "Weryfikacja na bieżąco", body: "Księgowy sprawdza dokumenty i zgłoszenia PZC; w razie pytań chińskojęzyczny opiekun klienta pomaga w kontakcie z księgowym." },
       { title: "Terminowe deklaracje i obsługa e-faktur w KSeF", body: "Składamy JPK_V7, deklaracje ZUS i inne w ustawowych terminach, a e-faktury obsługujemy w KSeF." },
       { title: "Miesięczny raport na WeChat", body: "Co miesiąc wysyłamy na WeChat podsumowanie należnych podatków i wyników firmy." },
     ],
@@ -111,7 +110,7 @@ export const pl: Dict = {
     subtitle: "Zapraszamy na spotkanie w biurze w Warszawie",
     addressLocal: "",
   },
-  footer: { privacy: "Polityka prywatności (RODO)" },
+  footer: { privacy: "Polityka prywatności (RODO, wersja angielska)", privacyHref: "https://imosta.pl/en/privacy-policy/" },
   photos: {
     receptionAlt: "Recepcja biura IMOSTA w Warszawie z logo IMOSTA na ścianie",
     receptionCaption: "Biuro IMOSTA w Warszawie · ul. Ostrobramska 101",

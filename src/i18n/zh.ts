@@ -11,7 +11,6 @@ export const zh = {
     subtitle: "扫码添加中文顾问，直接用中文沟通",
     scanHint: "在微信内打开本页？长按二维码即可识别",
     idLabel: "微信号",
-    idPending: "待补充",
     qrAlt: "IMOSTA 微信二维码",
     copy: "复制",
     copied: "已复制",
@@ -19,7 +18,7 @@ export const zh = {
     close: "关闭",
   },
   hero: {
-    pill: "华沙波兰会计与法律咨询服务机构 · KRS · 职业责任险 (OC)",
+    pill: "位于华沙的波兰会计与法律咨询服务机构 · KRS · 职业责任险 (OC)",
     title1: "波兰会计与法律咨询服务机构",
     title2: "专为中波跨境企业与华商赋能",
     subtitle: "华沙实体办公 · 提供中文、波兰语及英语服务 · 专注进口清关 Art. 33a 增值税递延、KSeF 合规、公司账务与居留卡税务支持。",
@@ -34,17 +33,17 @@ export const zh = {
   solutions: {
     eyebrow: "核心服务 · Services",
     title: "华商在波兰经营最常遇到的四大财税难题",
-    subtitle: "来自华沙及 Wólka Kosowska (GD Poland) 批发市场客户的真实需求",
+    subtitle: "针对华沙及 Wólka Kosowska 批发市场华商的常见需求",
     items: [
       {
         tag: "VAT Importers",
         title: "Art. 33a 进口增值税递延",
-        body: "符合条件的进口商无需在海关先行现金缴纳进口增值税，而是在当期 JPK_V7 中申报；符合抵扣条件时，可在同一期申报中抵扣进口增值税，有助于盘活流动资金。我们协助评估适用条件并办理。",
+        body: "符合条件的进口商无需在海关环节先行缴纳进口增值税，而是在当期 JPK_V7 中申报；符合抵扣条件时，可在同一期申报中抵扣进口增值税，有助于盘活流动资金。我们协助评估适用条件并办理。",
       },
       {
         tag: "KSeF 2.0",
         title: "全面应对 KSeF 电子发票",
-        body: "KSeF 已于 2026 年起强制实施。我们帮您规范发票商品名称，并核对 JPK_V7 中适用的 GTU 标识，梳理开票流程，降低税务局稽查与罚款风险。",
+        body: "KSeF 自2026年起分阶段强制实施，具体适用时间及例外情况需根据企业情况确认。我们帮您规范发票商品名称，并核对 JPK_V7 中适用的 GTU 标识，梳理开票流程，降低税务局稽查与罚款风险。",
       },
       {
         tag: "Kasa Fiskalna",
@@ -60,12 +59,12 @@ export const zh = {
   },
   importVat: {
     eyebrow: "税务与进口 · Tax & Import",
-    title: "Art. 33a：进口增值税不再占用现金",
+    title: "Art. 33a：减少进口增值税对流动资金的占用",
     subtitle: "根据波兰增值税法第 33a 条，符合条件的进口商可在增值税申报中结算进口增值税，而不是在海关先行缴纳。",
     standardTitle: "常规进口",
     standard: ["货物到港，海关计征进口增值税", "进口商先行缴纳进口增值税", "可能占用企业流动资金，具体时间取决于申报及退税情况"],
     art33aTitle: "适用 Art. 33a 后",
-    art33a: ["货物到港，海关出具 PZC 报关单", "进口增值税不在海关现金缴纳", "在月度 JPK_V7 中非现金结算，营运资金留在企业"],
+    art33a: ["货物到港，海关出具 PZC 报关单", "无需在海关环节先行缴纳进口增值税", "在月度 JPK_V7 中申报结算，有助于保留营运资金"],
     note: "适用条件因企业而异，需要核实企业的 VAT 登记、税费缴纳情况及海关代理等适用条件。我们会在咨询中根据您的情况逐项核对。",
   },
   pricing: {
@@ -89,7 +88,7 @@ export const zh = {
     subtitle: "IMOSTA Group 为在波兰经营的中小企业提供会计、人事与法律咨询服务。China Desk 由中文团队负责，借助 Taxo 平台让合作简单透明。",
     steps: [
       { title: "拍照上传发票", body: "在 Taxo 手机端拍照上传发票与单据，无需邮寄纸质文件。" },
-      { title: "会计实时审核", body: "会计审核单据、核对 PZC 报关单，有疑问直接用中文与您沟通。" },
+      { title: "会计实时审核", body: "会计审核单据、核对 PZC 报关单；如有疑问，由中文客户经理协助您与会计沟通。" },
       { title: "按时提交税务申报并处理 KSeF 电子发票", body: "按法定期限提交 JPK_V7、ZUS 等申报，并通过 KSeF 处理电子发票。" },
       { title: "微信管家月度报告", body: "每月通过微信向您发送应缴税费与经营数据摘要。" },
     ],
@@ -101,7 +100,7 @@ export const zh = {
     subtitle: "欢迎预约到华沙办公室面谈",
     addressLocal: "华沙 Ostrobramska 街 101 号 336 室",
   },
-  footer: { privacy: "隐私政策 · Polityka Prywatności (RODO)" },
+  footer: { privacy: "隐私政策 (GDPR / RODO)", privacyHref: "/privacy" },
   photos: {
     receptionAlt: "IMOSTA 华沙办公室前台，墙上是 IMOSTA 标志",
     receptionCaption: "IMOSTA 华沙办公室 · ul. Ostrobramska 101",
