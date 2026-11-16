@@ -20,7 +20,7 @@ export const pl: Dict = {
     close: "Zamknij",
   },
   hero: {
-    pill: "Zarejestrowane biuro rachunkowe w Warszawie · KRS · Ubezpieczenie OC",
+    pill: "Doradztwo księgowe i prawne w Warszawie · KRS · Ubezpieczenie OC",
     title1: "Księgowość i obsługa prawna",
     title2: "dla chińskich firm i handlu transgranicznego w Polsce",
     subtitle:
@@ -29,7 +29,7 @@ export const pl: Dict = {
     ctaSecondary: "Zobacz ofertę i cennik",
     badges: [
       { title: "Biuro stacjonarne w Warszawie", detail: "ul. Ostrobramska 101" },
-      { title: "Zarejestrowane biuro rachunkowe", detail: "Wpis do KRS · ubezpieczenie OC" },
+      { title: "Doradztwo księgowe i prawne", detail: "Wpis do KRS · ubezpieczenie OC" },
       { title: "Specjalizacja: import i eksport", detail: "Kolej Chiny–Europa · fracht morski · lotniczy" },
     ],
   },
@@ -41,12 +41,12 @@ export const pl: Dict = {
       {
         tag: "VAT Importers",
         title: "Bezgotówkowe rozliczenie VAT w imporcie (art. 33a)",
-        body: "Brak konieczności zamrażania gotówki w urzędzie celnym — uprawnieni importerzy rozliczają VAT w deklaracji JPK_V7. Pomagamy sprawdzić warunki i wdrożyć procedurę.",
+        body: "Uprawnieni importerzy wykazują VAT z importu w JPK_V7 zamiast płacić go w urzędzie celnym, a przy spełnieniu warunków do odliczenia odliczają go w tej samej deklaracji. Pomagamy sprawdzić warunki i wdrożyć procedurę.",
       },
       {
         tag: "KSeF 2.0",
         title: "Gotowość na KSeF 2.0",
-        body: "Weryfikacja nazewnictwa towarów na fakturach i kodów GTU, integracja z systemem magazynowym, ograniczenie ryzyka kontroli i kar skarbowych.",
+        body: "Ujednolicenie nazw towarów na fakturach, weryfikacja właściwych oznaczeń GTU w JPK_V7 i uporządkowanie procesu fakturowania, ograniczenie ryzyka kontroli i kar skarbowych.",
       },
       {
         tag: "Kasa Fiskalna",
@@ -67,8 +67,8 @@ export const pl: Dict = {
     standardTitle: "Import standardowy",
     standard: [
       "Towar dociera do Polski, urząd celny nalicza VAT",
-      "Importer płaci VAT gotówką na rachunek urzędu celnego",
-      "Środki zamrożone zwykle na 30–60 dni — wąskie gardło płynności",
+      "Importer najpierw płaci VAT z importu",
+      "Może to angażować środki obrotowe firmy — czas zależy od rozliczeń i zwrotu podatku",
     ],
     art33aTitle: "Procedura art. 33a",
     art33a: [
@@ -76,7 +76,7 @@ export const pl: Dict = {
       "VAT nie jest płacony gotówką w urzędzie celnym",
       "Bezgotówkowe rozliczenie w miesięcznym JPK_V7 — kapitał obrotowy zostaje w firmie",
     ],
-    note: "Warunki zależą od firmy (m.in. status czynnego podatnika VAT, brak zaległości podatkowych, odprawa przez agenta celnego ze statusem AEO). Sprawdzamy je indywidualnie podczas konsultacji.",
+    note: "Warunki zależą od firmy (m.in. rejestracja VAT, regulowanie podatków i należności celnych oraz agencja celna). Sprawdzamy je indywidualnie podczas konsultacji.",
   },
   pricing: {
     eyebrow: "Cennik",
@@ -100,7 +100,7 @@ export const pl: Dict = {
     steps: [
       { title: "Zdjęcie faktury w aplikacji", body: "Wgrywasz faktury i dokumenty jako zdjęcia w aplikacji Taxo — bez wysyłania papierów." },
       { title: "Weryfikacja na bieżąco", body: "Księgowy sprawdza dokumenty i zgłoszenia PZC, a pytania wyjaśnia z Tobą po chińsku." },
-      { title: "Terminowe JPK i KSeF", body: "Składamy JPK_V7, deklaracje ZUS i inne w ustawowych terminach, a e-faktury obsługujemy w KSeF." },
+      { title: "Terminowe deklaracje i obsługa e-faktur w KSeF", body: "Składamy JPK_V7, deklaracje ZUS i inne w ustawowych terminach, a e-faktury obsługujemy w KSeF." },
       { title: "Miesięczny raport na WeChat", body: "Co miesiąc wysyłamy na WeChat podsumowanie należnych podatków i wyników firmy." },
     ],
   },

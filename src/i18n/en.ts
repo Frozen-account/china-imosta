@@ -20,7 +20,7 @@ export const en: Dict = {
     close: "Close",
   },
   hero: {
-    pill: "Registered Accounting Firm in Warsaw · KRS · Professional Liability Insurance (OC)",
+    pill: "Accounting & Legal Advisory in Warsaw · KRS · Professional Liability Insurance (OC)",
     title1: "Accounting and Legal Support",
     title2: "for Chinese Enterprises & Cross-Border Trade in Poland",
     subtitle:
@@ -29,7 +29,7 @@ export const en: Dict = {
     ctaSecondary: "View Pricing & Plans",
     badges: [
       { title: "Office in Warsaw", detail: "ul. Ostrobramska 101" },
-      { title: "Registered accounting firm", detail: "KRS-registered · OC liability insurance" },
+      { title: "Accounting & legal advisory", detail: "KRS-registered · OC liability insurance" },
       { title: "Import & export specialists", detail: "China–Europe rail · sea · air freight" },
     ],
   },
@@ -41,12 +41,12 @@ export const en: Dict = {
       {
         tag: "VAT Importers",
         title: "Cashless Import VAT Clearance (Art. 33a)",
-        body: "No upfront cash frozen at customs — eligible importers settle import VAT directly in the JPK_V7 return. We check whether you qualify and handle the setup.",
+        body: "Eligible importers report import VAT in the JPK_V7 return instead of paying it at customs and, where the deduction conditions are met, deduct it in the same return. We check whether you qualify and handle the setup.",
       },
       {
         tag: "KSeF 2.0",
         title: "KSeF 2.0 Readiness",
-        body: "Invoice nomenclature audit, GTU code alignment and ERP integration — reducing the risk of tax audits and penalties.",
+        body: "Consistent product names on invoices, verification of the applicable GTU markers in JPK_V7, and invoicing workflow setup — reducing the risk of tax audits and penalties.",
       },
       {
         tag: "Kasa Fiskalna",
@@ -67,8 +67,8 @@ export const en: Dict = {
     standardTitle: "Standard import",
     standard: [
       "Goods arrive; customs assesses import VAT",
-      "The importer pays VAT in cash to the customs account",
-      "Cash is typically frozen for 30–60 days — a cash-flow bottleneck",
+      "The importer pays import VAT upfront",
+      "This can tie up working capital; the duration depends on the filing and refund cycle",
     ],
     art33aTitle: "Art. 33a procedure",
     art33a: [
@@ -76,7 +76,7 @@ export const en: Dict = {
       "No VAT is paid in cash at customs",
       "Non-cash VAT accounting in the monthly JPK_V7 — working capital stays in the business",
     ],
-    note: "Eligibility depends on the company (e.g. active VAT registration, no tax arrears, clearance through an AEO-certified customs agent). We check each condition during the consultation.",
+    note: "Eligibility depends on the company (e.g. VAT registration status, tax and duty payment record, and the customs agent used). We check each condition during the consultation.",
   },
   pricing: {
     eyebrow: "Pricing",
@@ -100,7 +100,7 @@ export const en: Dict = {
     steps: [
       { title: "Snap & Upload Invoices", body: "Upload invoices and documents as photos in the Taxo mobile app — no paper by post." },
       { title: "Real-Time Review", body: "Your accountant reviews documents and PZC customs records and clarifies questions with you in Chinese." },
-      { title: "On-Time JPK & KSeF Filing", body: "We file JPK_V7, ZUS and other returns by the statutory deadlines and handle e-invoices in KSeF." },
+      { title: "On-Time Tax Filings & KSeF E-Invoicing", body: "We file JPK_V7, ZUS and other returns by the statutory deadlines and handle e-invoices in KSeF." },
       { title: "Monthly Report on WeChat", body: "Every month you receive a WeChat summary of taxes due and key business figures." },
     ],
   },

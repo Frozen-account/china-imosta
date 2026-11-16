@@ -12,7 +12,7 @@ const montserrat = Montserrat({
 
 const title = "IMOSTA China Desk · 波兰华沙中文会计与税务服务";
 const description =
-  "华沙实体办公的会计与法律事务所，母语级中文团队。专注进口增值税 Art. 33a 递延、KSeF 电子发票、收银机合规、公司账务与居留卡财税支持。";
+  "华沙实体办公的波兰会计与法律咨询服务机构，提供中文、波兰语及英语服务。专注进口增值税 Art. 33a 递延、KSeF 电子发票、收银机合规、公司账务与居留卡财税支持。";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

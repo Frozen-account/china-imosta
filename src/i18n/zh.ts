@@ -4,7 +4,7 @@ export const zh = {
   numberLocale: "en-US",
   nav: { services: "服务", taxImport: "税务与进口", pricing: "收费标准", about: "关于我们", contact: "联系方式", label: "主导航" },
   menu: { open: "打开菜单", close: "关闭菜单", language: "语言" },
-  logoTagline: "波兰正规会计师事务所",
+  logoTagline: "波兰会计与法律咨询服务机构",
   wechat: {
     cta: "WeChat 咨询",
     title: "微信咨询",
@@ -19,15 +19,15 @@ export const zh = {
     close: "关闭",
   },
   hero: {
-    pill: "华沙正规注册会计机构 · KRS · 职业责任险 (OC)",
-    title1: "波兰正规会计与法律事务所",
+    pill: "华沙波兰会计与法律咨询服务机构 · KRS · 职业责任险 (OC)",
+    title1: "波兰会计与法律咨询服务机构",
     title2: "专为中波跨境企业与华商赋能",
-    subtitle: "华沙实体办公 · 母语级中文/波兰语/英语团队 · 专注进口清关 Art. 33a 增值税递延、KSeF 合规、公司账务与居留卡税务支持。",
+    subtitle: "华沙实体办公 · 提供中文、波兰语及英语服务 · 专注进口清关 Art. 33a 增值税递延、KSeF 合规、公司账务与居留卡税务支持。",
     ctaPrimary: "立即微信咨询",
     ctaSecondary: "查看服务方案",
     badges: [
       { title: "华沙实体办公室", detail: "ul. Ostrobramska 101" },
-      { title: "正规注册会计机构", detail: "KRS 登记 · 职业责任险 (OC)" },
+      { title: "波兰会计与法律咨询服务机构", detail: "KRS 登记 · 职业责任险 (OC)" },
       { title: "专注进出口清关税务", detail: "中欧班列 · 海运 · 空运" },
     ],
   },
@@ -39,12 +39,12 @@ export const zh = {
       {
         tag: "VAT Importers",
         title: "Art. 33a 进口增值税递延",
-        body: "符合条件的进口商无需在海关先行现金缴纳进口增值税，而是在当期 JPK_V7 申报中同时申报并抵扣，免垫资、盘活流动资金。我们协助评估适用条件并办理。",
+        body: "符合条件的进口商无需在海关先行现金缴纳进口增值税，而是在当期 JPK_V7 中申报；符合抵扣条件时，可在同一期申报中抵扣进口增值税，有助于盘活流动资金。我们协助评估适用条件并办理。",
       },
       {
         tag: "KSeF 2.0",
         title: "全面应对 KSeF 电子发票",
-        body: "KSeF 已于 2026 年起强制实施。我们帮您规范发票上的商品品名、GTU 代码与开票流程，降低税务局稽查与罚款风险。",
+        body: "KSeF 已于 2026 年起强制实施。我们帮您规范发票商品名称，并核对 JPK_V7 中适用的 GTU 标识，梳理开票流程，降低税务局稽查与罚款风险。",
       },
       {
         tag: "Kasa Fiskalna",
@@ -63,10 +63,10 @@ export const zh = {
     title: "Art. 33a：进口增值税不再占用现金",
     subtitle: "根据波兰增值税法第 33a 条，符合条件的进口商可在增值税申报中结算进口增值税，而不是在海关先行缴纳。",
     standardTitle: "常规进口",
-    standard: ["货物到港，海关计征进口增值税", "进口商先以现金缴纳增值税", "资金通常被占用 30–60 天，造成现金流瓶颈"],
+    standard: ["货物到港，海关计征进口增值税", "进口商先行缴纳进口增值税", "可能占用企业流动资金，具体时间取决于申报及退税情况"],
     art33aTitle: "适用 Art. 33a 后",
     art33a: ["货物到港，海关出具 PZC 报关单", "进口增值税不在海关现金缴纳", "在月度 JPK_V7 中非现金结算，营运资金留在企业"],
-    note: "适用条件因企业而异（如增值税登记状态、无税务欠款、是否通过具备 AEO 资质的报关代理等）。我们会在咨询中根据您的情况逐项核对。",
+    note: "适用条件因企业而异，需要核实企业的 VAT 登记、税费缴纳情况及海关代理等适用条件。我们会在咨询中根据您的情况逐项核对。",
   },
   pricing: {
     eyebrow: "收费标准 · Pricing",
@@ -80,7 +80,7 @@ export const zh = {
     plans: [
       { name: "初创贸易型", sub: "Starter Trading", features: ["每月最多 20 份单据", "JPK_V7 增值税基础申报", "ZUS 社保计算", "Taxo 在线平台访问"] },
       { name: "进出口批发旗舰版", sub: "Import & Wholesale Pro", features: ["Art. 33a 进口增值税与 PZC 报关单核对", "KSeF 电子发票对接", "每月最多 40 份单据", "专属中文客户经理"] },
-      { name: "企业全面定制版", sub: "Enterprise / Custom", features: ["大额营业额企业", "员工工资与社保", "CIT 企业所得税优化", "税务稽查全程陪同"] },
+      { name: "企业全面定制版", sub: "Enterprise / Custom", features: ["高营业额企业", "员工工资与社保", "CIT 企业所得税优化", "税务稽查全程陪同"] },
     ],
   },
   about: {
@@ -90,7 +90,7 @@ export const zh = {
     steps: [
       { title: "拍照上传发票", body: "在 Taxo 手机端拍照上传发票与单据，无需邮寄纸质文件。" },
       { title: "会计实时审核", body: "会计审核单据、核对 PZC 报关单，有疑问直接用中文与您沟通。" },
-      { title: "JPK / KSeF 按时申报", body: "按法定期限提交 JPK_V7、ZUS 等申报，并通过 KSeF 处理电子发票。" },
+      { title: "按时提交税务申报并处理 KSeF 电子发票", body: "按法定期限提交 JPK_V7、ZUS 等申报，并通过 KSeF 处理电子发票。" },
       { title: "微信管家月度报告", body: "每月通过微信向您发送应缴税费与经营数据摘要。" },
     ],
   },

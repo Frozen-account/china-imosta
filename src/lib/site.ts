@@ -11,7 +11,7 @@ export const CONTACT = {
   address: "ul. Ostrobramska 101 lok. 336, 04-041 Warszawa",
   mapsHref: "https://www.google.com/maps/search/?api=1&query=Ostrobramska+101,+04-041+Warszawa",
   nip: "1133089152",
-  krs: "0001025586",
+  krs: "0001023447",
   regon: "524697797",
   privacyHref: "https://imosta.pl/ru/privacy-policy/",
 } as const;
