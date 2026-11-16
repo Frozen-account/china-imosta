@@ -13,7 +13,7 @@ export const pl: Dict = {
     scanHint: "Otwierasz stronę w WeChat? Przytrzymaj kod QR, aby go rozpoznać",
     idLabel: "WeChat ID",
     idPending: "wkrótce",
-    qrPending: "Kod QR WeChat · wkrótce",
+    qrAlt: "Kod QR WeChat IMOSTA",
     copy: "Kopiuj",
     copied: "Skopiowano",
     orCall: "lub zadzwoń",

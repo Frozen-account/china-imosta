@@ -1,5 +1,5 @@
 // Single place for contact details and links used across the page.
-// TODO before launch: set WECHAT_ID and add the real QR image (see WeChatQr).
+// TODO before launch: set wechatId (the QR image lives in public/images/wechat-qr.png).
 export const SITE_URL = "https://china.imosta.pl";
 
 export const CONTACT = {

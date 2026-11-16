@@ -1,7 +1,8 @@
 "use client";
 
 import { createContext, useCallback, useContext, useEffect, useRef, useState } from "react";
-import { Check, Copy, MessageCircle, QrCode, X } from "lucide-react";
+import Image from "next/image";
+import { Check, Copy, MessageCircle, X } from "lucide-react";
 import { useLocale } from "@/components/locale";
 import { CONTACT } from "@/lib/site";
 
@@ -28,17 +29,13 @@ export function WeChatButton({ children, className }: { children: React.ReactNod
   );
 }
 
-// Placeholder until the real QR image is added (e.g. public/wechat-qr.png rendered with next/image).
+// White tile = extra quiet zone so phone cameras and WeChat's scanner lock on instantly.
+// unoptimized: serve the original lossless PNG so module edges stay sharp.
 export function WeChatQr({ size = "md" }: { size?: "md" | "lg" }) {
   const { t } = useLocale();
   return (
-    <div
-      className={`flex flex-col items-center justify-center gap-2 rounded-xl bg-white p-3 text-center text-slate-400 ${size === "lg" ? "size-56" : "size-48"}`}
-      role="img"
-      aria-label={t.wechat.qrPending}
-    >
-      <QrCode className="size-16 text-slate-300" aria-hidden />
-      <span className="text-xs font-semibold">{t.wechat.qrPending}</span>
+    <div className={`rounded-xl bg-white p-2 ${size === "lg" ? "size-56" : "size-48"}`}>
+      <Image src="/images/wechat-qr.png" alt={t.wechat.qrAlt} width={669} height={669} unoptimized className="size-full" />
     </div>
   );
 }

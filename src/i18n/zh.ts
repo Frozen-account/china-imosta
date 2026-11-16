@@ -12,7 +12,7 @@ export const zh = {
     scanHint: "在微信内打开本页？长按二维码即可识别",
     idLabel: "微信号",
     idPending: "待补充",
-    qrPending: "微信二维码 · 待补充",
+    qrAlt: "IMOSTA 微信二维码",
     copy: "复制",
     copied: "已复制",
     orCall: "或致电",

@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { ArrowRight, Building2, MapPin, MessageCircle, ShieldCheck, Ship } from "lucide-react";
 import { useLocale } from "@/components/locale";
+import { ImostaLogo } from "@/components/logo";
 import { WeChatButton } from "@/components/wechat";
 import { PHOTOS } from "@/lib/photos";
 
@@ -17,6 +18,7 @@ export function Hero() {
       <div className="relative mx-auto max-w-6xl px-4 pb-16 pt-14 md:pb-24 md:pt-20">
         <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)]">
           <div className="min-w-0">
+            <ImostaLogo className="mb-5 h-11" />
             <p className="inline-flex items-center gap-2 rounded-full bg-amber-400/10 px-3 py-1 text-xs font-bold text-amber-300 ring-1 ring-amber-400/30">
               {t.hero.pill}
             </p>
