@@ -4,8 +4,8 @@ export const SITE_URL = "https://china.imosta.pl";
 export const CONTACT = {
   wechatId: "", // Victoria's WeChat ID — empty hides the ID row; the QR (public/images/wechat-qr.png) is shown either way
   wechatName: "Victoria",
-  phone: "+48 573 581 162",
-  phoneHref: "tel:+48573581162",
+  phone: "+48 881 867 733",
+  phoneHref: "tel:+48881867733",
   email: "info@imosta.pl",
   address: "ul. Ostrobramska 101 lok. 336, 04-041 Warszawa",
   mapsHref: "https://www.google.com/maps/search/?api=1&query=Ostrobramska+101,+04-041+Warszawa",
